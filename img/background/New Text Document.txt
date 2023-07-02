@@ -1,0 +1,89 @@
+            	    	<!-- details -->
+                    	<div class="col-md-4 col-sm-12">
+                	    	<!-- office -->
+                        	<div class="details">
+                    	    	<h5>آدرس</h5>
+                            	<p>شیراز <br />بلوار جام جم</p>
+                        	</div>
+                        	<!-- end office -->
+                    
+                        	<!-- phone -->
+                        	<div class="details">
+                    	    	<h5>تلفن تماس</h5>
+                            	<p>07132309534<br />09032309534</p>
+                        	</div>
+                        	<!-- end phone -->
+                    
+                        	<!-- email -->
+                        	<div class="details">
+                    	    	<h5>پست الکترونیک</h5>
+                            	<p>info@webrubik.com<br />info@yourdomain.com</p>
+                        	</div>
+                        	<!-- end email -->
+                    
+                        	<!-- social media -->
+                        	<div class="details">
+                    	    	<h5>ما را دنبال کنید</h5>
+                        
+                            	<!-- social media container -->
+                            	<div class="social-media-container">
+            				    	<a class="social-media" href="#"><i class="fa fa-facebook"></i></a>
+                        	    	<a class="social-media" href="#"><i class="fa fa-twitter"></i></a>
+                        	    	<a class="social-media" href="#"><i class="fa fa-behance"></i></a>
+                            	</div>
+                            	<!-- end social media container -->
+                        	</div>
+                        	<!-- end social media -->
+                    	</div>
+                    	<!-- end details -->
+                    	<!-- contact form container -->
+                    	<div class="contact-form-container col-md-8 col-sm-12 col-xs-12">
+                	    	<h5>ارسال پیام</h5>
+					    	<form class="contact-form" action="contact.php" method="post" enctype="multipart/form-data">
+						    	<!-- left side -->
+						    	<div class="col-md-6 col-sm-12 no-pad">
+							    	<div class="input-container">
+								    	<input type="text" id="name" name="name" />
+								    	<label for="name">نام شما</label>
+                        	        
+								    	<div class="input-border-bottom"></div>
+							    	</div>
+						    	</div>
+						    	<!-- end left side -->
+                            
+						    	<!-- right side -->
+						    	<div class="col-md-6 col-sm-12 no-pad">
+							    	<div class="input-container">
+								    	<input type="email" id="email" name="email" />
+								    	<label for="email">پست الکترونیک</label>
+                	    		            
+								    	<div class="input-border-bottom"></div>
+							    	</div>
+						    	</div>
+						    	<!-- end right side -->
+                    	                        
+						    	<!-- full width -->
+						    	<div class="col-xs-12 text-center no-pad">                            
+							    	<div class="input-container no-mrg">
+								    	<textarea id="message" name="message"></textarea>
+								    	<label for="message">متن پیام</label>
+                                
+								    	<div class="input-border-bottom"></div>
+							    	</div>
+                                
+							    	<!-- notification container -->
+							    	<div class="col-xs-12 notif-container no-pad">
+								    	<div class="form-notif"></div>
+							    	</div>
+							    	<!-- end notification container -->
+                        	
+							    	<!-- button container -->
+							    	<div class="col-xs-12 no-pad text-right mrg-top-xs">
+								    	<button type="submit" class="button button-green button-small">ارسال پیام</button>
+							    	</div>
+							    	<!-- end button container -->
+						    	</div>
+						    	<!-- end full width -->
+					    	</form>
+                    	</div>
+                    	<!-- end contact form container -->
